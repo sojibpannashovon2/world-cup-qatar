@@ -98,6 +98,10 @@ main {
 
 }
 
+.button:hover {
+    background-color: #FFFFFF;
+}
+
 .main-banner .banner-thumble img {
 
     position: absolute;
@@ -151,6 +155,10 @@ Blog containner section
     justify-items: center;
 }
 
+.blog-button:hover {
+    background-color: #DD0000;
+}
+
 .blog-button {
     width: 252px;
     height: 64px;
@@ -167,9 +175,9 @@ a {
     color: #161616;
 }
 
-.selected-button {
+/* .selected-button {
     background-color: #DD0000;
-}
+} */
 
 /*................... Partial blog css 
 ........................................................*/
@@ -190,7 +198,7 @@ a {
 .partial-blog {
 
 
-    box-shadow: 5px 5px 5px antiquewhite;
+    box-shadow: 5px 5px 5px rgb(136, 133, 130);
     background-color: #ece8e8e3;
     width: 312px;
     height: 362px;

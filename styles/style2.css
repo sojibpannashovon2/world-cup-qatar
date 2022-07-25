@@ -6,11 +6,6 @@
 body {
 
     font-family: 'Poppins', sans-serif;
-
-
-
-
-
 }
 
 main {
@@ -190,41 +185,49 @@ a {
 .partial-blog {
 
 
-    box-shadow: 5px 5px 5px antiquewhite;
+    box-shadow: 5px 5px 5px rgb(141, 140, 138);
     background-color: #ece8e8e3;
     width: 312px;
-    height: 362px;
+    height: 250px;
     border-radius: 10px;
-    border: 1px solid #665f5f;
+    border: 1px solid #8a8484;
     padding: 10px;
 
 }
 
-.partial-blog-img img {
+.flag-img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.flag-img .img-1 img {
+
+    height: 100px;
+    width: 130px;
     border-radius: 10px;
-    width: 100%;
+    border: 1px solid rgb(240, 11, 11);
 }
 
-.partial-blog-button {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.flag-img .img-2 img {
+
+    height: 100px;
+    width: 130px;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 11, 11);
 }
 
-.partial-blog-article p {
-    width: 272px;
-    height: 54px;
-}
+.partial-blog-article {
 
-.partial-blog-info i {
-
-    margin-right: 20px;
-    color: #444141e8;
-
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: medium;
 }
 
 .partial-blog-info {
-
-    font-size: 14px;
+    margin-left: 50px;
+    color: rgba(77, 75, 72, 0.979);
 }
 
 /* Footer css style 
