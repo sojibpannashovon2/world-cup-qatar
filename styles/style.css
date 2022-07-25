@@ -1,0 +1,262 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Poppins:wght@500&display=swap');
+
+
+/* common styles */
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+
+
+
+
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+
+}
+
+
+/* Top Banner Styles */
+
+.top-banner-container {
+    border: 1px solid black;
+    width: 1300px;
+    height: 646px;
+    border-radius: 30px;
+    background-color: #161616;
+    display: flex;
+
+
+
+    align-items: center;
+
+    margin-bottom: 100px;
+
+
+
+}
+
+.main-banner {
+
+    display: flex;
+    position: absolute;
+    width: 531px;
+    height: 424px;
+
+    top: 15px;
+    justify-items: center;
+
+    margin-left: 100px;
+
+
+}
+
+
+
+.banner-blog {
+    margin-top: 70px;
+    margin-bottom: 111px;
+    margin-left: 20px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+
+
+
+}
+
+.banner-article {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.button {
+    background-color: #DD0000;
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+    gap: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+.main-banner .banner-thumble img {
+
+    position: absolute;
+    width: 100%;
+    height: 613px;
+    left: 550px;
+    top: 10px;
+
+}
+
+/* .....................
+Blog containner section 
+........................*/
+
+
+.blog-unlimited {
+    justify-items: center;
+
+    width: 1300px;
+
+
+
+}
+
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+    padding: 0%;
+    margin-left: 0%;
+
+}
+
+.fixed-blog {
+
+
+    height: 360px;
+    width: 312px;
+    border-radius: 10px;
+    margin: 30px 30px;
+    background-color: #161616;
+}
+
+.option {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.blog-button {
+    width: 252px;
+    height: 64px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0cm;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+
+.selected-button {
+    background-color: #DD0000;
+}
+
+/*................... Partial blog css 
+........................................................*/
+
+.partial-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 20px;
+    justify-items: center;
+
+
+}
+
+.partial-blog {
+
+    padding: 10px;
+    box-shadow: 5px 5px 5px 2px antiquewhite;
+    background-color: #ece8e8e3;
+
+    border-radius: 10px;
+    border: 1px solid #665f5f;
+
+}
+
+.partial-blog-img img {
+    border-radius: 10px;
+}
+
+.partial-blog-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.partial-blog-article p {
+    width: 272px;
+    height: 54px;
+}
+
+.partial-blog-info i {
+
+    margin-right: 20px;
+    color: #444141e8;
+
+}
+
+.partial-blog-info {
+
+    font-size: 14px;
+}
+
+/* Footer css style 
+...................
+...................
+
+*/
+
+.footer {
+    background-color: #161616;
+    width: 1300px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    text-align: center;
+}
+
+span {
+    color: #FFFFFF;
+
+
+}
+
+.inside-footer {
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.logo {
+
+    color: #ffffff;
+}
+
+.logo i {
+    color: #ffffff;
+    margin: 10px;
+}
