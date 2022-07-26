@@ -28,7 +28,7 @@ main {
 /* Top Banner Styles */
 
 .top-banner-container {
-    border: 1px solid black;
+
     width: 1400px;
     height: 646px;
     border-radius: 30px;
@@ -40,6 +40,7 @@ main {
     align-items: center;
 
     margin-bottom: 100px;
+    margin-left: 0%;
 
 
 
@@ -47,15 +48,18 @@ main {
 
 .main-banner {
 
-    display: flex;
+
     position: absolute;
-    width: 531px;
-    height: 424px;
+    width: 1100px;
+    height: 624px;
 
-    top: 15px;
-    justify-items: center;
+    top: 50px;
 
-    margin-left: 100px;
+
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 
 
 }
@@ -63,14 +67,17 @@ main {
 
 
 .banner-blog {
-    margin-top: 70px;
-    margin-bottom: 111px;
-    margin-left: 20px;
+    /* margin-top: 60px;
+    margin-bottom: 111px; */
+    /* margin-left: 20px; */
+    width: 800px;
+    /* padding: 20px; */
+    height: 600px;
 }
 
 .banner-title {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     color: #FFFFFF;
 
 
@@ -80,8 +87,9 @@ main {
 .banner-article {
 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: #FFFFFF;
+    text-align: left;
 
 }
 
@@ -95,6 +103,7 @@ main {
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
+    margin-top: 10px;
 
 }
 
@@ -102,13 +111,30 @@ main {
     background-color: #FFFFFF;
 }
 
-.main-banner .banner-thumble img {
+.banner-thumble {
 
-    position: absolute;
-    width: 100%;
-    height: 613px;
-    left: 550px;
-    top: 10px;
+    width: 990px;
+    height: 550px;
+
+}
+
+.banner-thumble img {
+
+
+    width: 200ppx;
+    height: 513px;
+
+
+
+}
+
+/* ..........Adding animation............. */
+
+.messi:hover {
+
+    transform: rotate(30deg);
+    transform-origin: top bottom;
+    transition-duration: 2s;
 
 }
 
@@ -137,6 +163,9 @@ Blog containner section
     margin-left: 0%;
 
 }
+
+/*  fixed-blog */
+
 
 .fixed-blog {
 
@@ -275,4 +304,348 @@ span {
 .logo i {
     color: #ffffff;
     margin: 10px;
+}
+
+
+
+/* ............................................Media Querese.................................... */
+
+
+/* .........For device...... */
+
+@media only screen and (max-width:578px) {
+    .top-banner-container {
+        width: 350px;
+        /* margin-left: 5px; */
+        height: 1000px;
+        margin-left: 20px;
+
+
+
+
+    }
+
+    .main-banner {
+
+        margin-left: 10%;
+        /* padding: 5%; */
+        width: 340px;
+        height: 910px;
+        display: grid;
+        flex-direction: column;
+        margin-top: 0%;
+
+
+    }
+
+
+
+    .banner-blog {
+        margin-left: 0%;
+        width: 330px;
+        height: 400px;
+
+
+    }
+
+    .banner-title {
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 20px;
+
+        font-weight: 900px;
+        text-align: center;
+
+
+
+    }
+
+    .banner-article {
+        margin-top: 40px;
+        height: 220px;
+        /* padding: 10px; */
+
+        text-align: center;
+        font-size: medium;
+        text-align: justify;
+    }
+
+    .button {
+
+        width: 180px;
+        height: 56px;
+        margin-left: 90px;
+        background-color: #DD0000;
+
+
+    }
+
+
+    .banner-thumble {
+
+
+
+        height: 420px;
+        width: 400px;
+
+
+
+
+
+    }
+
+    .banner-thumble img {
+        height: 400px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+
+    /* partial blog */
+
+    .blog-unlimited {
+        width: 400px;
+
+        margin-left: 20px;
+        margin-left: 50px;
+        height: 4200px;
+
+
+    }
+
+    .blog-container {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 480px;
+        /* height: 1200px; */
+        margin: 0%;
+
+
+
+    }
+
+    .partial-blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 480px;
+        /* margin-left: 5px; */
+        height: 500px;
+        margin-top: 10px;
+
+    }
+
+    .partial-blog {
+        width: 300px;
+        /* margin-left: 30px; */
+    }
+
+    /* fixed-blog */
+
+
+
+    .fixed-blog {
+        background-color: #FFFFFF;
+        width: 540px;
+        height: 480px;
+        padding: 0%;
+        margin-left: 10%;
+    }
+
+    .option {
+        flex-direction: column;
+    }
+
+    #special {
+        background-color: #DD0000;
+    }
+
+
+    .blog-button {
+        background-color: #bbb5b5;
+    }
+
+
+
+
+    /* footer */
+
+
+    .footer {
+        width: 360px;
+
+        margin-left: 5px;
+        margin-top: 10px;
+        height: 380px;
+    }
+
+    .inside-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .footer span {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+}
+
+
+/* .........For Tablet...... */
+
+@media only screen and (min-width:579px) and (max-width:992px) {
+    .top-banner-container {
+        width: 850px;
+        height: 706px;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .main-banner {
+        width: 650px;
+        gap: 30px;
+        margin: 20px;
+        margin-left: 100px;
+    }
+
+    .banner-blog {
+        width: 530px;
+        height: 700px;
+        margin-top: 30px;
+
+
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-article {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .banner-thumble {
+        height: 620px;
+        width: 600px;
+
+    }
+
+    .banner-thumble img {
+        width: 300px;
+        height: 500px;
+    }
+
+    /* .partial-blogs */
+
+
+    .blog-unlimited {
+        width: 650px;
+
+        margin-right: 140px;
+
+        height: 2200px;
+        margin-left: 0px;
+
+
+    }
+
+    .blog-container {
+
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        width: 140px;
+        /* height: 1200px; */
+        margin-left: 0%;
+
+
+
+    }
+
+    .partial-blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 380px;
+        /* margin-left: 5px; */
+        height: 300px;
+        margin-top: 10px;
+
+    }
+
+    .partial-blog {
+        width: 250px;
+        height: 350px;
+    }
+
+    /* fixed-blog */
+
+
+
+    .fixed-blog {
+        background-color: #FFFFFF;
+        width: 540px;
+        height: 150px;
+        padding: 0%;
+        margin-left: 30%;
+    }
+
+    .option {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #special {
+        background-color: #DD0000;
+    }
+
+
+    .blog-button {
+        background-color: #bbb5b5;
+    }
+
+    /* ......Adding Button 
+    ............................*/
+
+
+
+
+
+    /* footer for tablet */
+
+
+    .footer {
+        width: 100%;
+
+        margin-right: 10px;
+        margin-top: 10px;
+        height: 380px;
+    }
+
+    .inside-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        /* flex-wrap: wrap; */
+    }
+
+    footer {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        /* display: flex;
+        flex-direction: column; */
+
+
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
 }

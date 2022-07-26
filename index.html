@@ -13,7 +13,11 @@
 
     <!-- Link the css -->
 
+    <!-- Adding favicon -->
+
     <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="shortcut icon" href="assets/images/qatar.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -33,7 +37,7 @@
 
         <section class="top-banner-container">
 
-            <article class="main-banner">
+            <div class="main-banner">
 
 
 
@@ -49,18 +53,23 @@
                     </div>
 
                     <div class="banner-button">
-                        <p> <button class="button"><a target="_blank" href="https://www.goal.com/en-us">Watch
-                                    Live</a></button></p>
+                        <button class="button"><a target="_blank" href="https://www.goal.com/en-us">Watch
+                                Live</a> <i class="fa-solid fa-arrows-left-right"></i></button>
                     </div>
+
+
+
                 </div>
-                <div class="banner-thumble">
-                    <img src="assets/images/messi.png" alt="">
-                </div>
+                <article class="banner-thumble">
+                    <img class="messi" src="assets/images/messi.png" alt="">
+
+                </article>
 
 
 
 
-            </article>
+
+            </div>
 
         </section>
 
@@ -79,7 +88,7 @@
                             <a href="">All Blogs</a>
                         </button>
 
-                        <button class="blog-button selected-button">
+                        <button id="special" class="blog-button selected-button">
                             <a href="">Blogs</a>
                         </button>
 
